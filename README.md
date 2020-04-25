@@ -51,7 +51,7 @@ Common configuration-files used by the examples
 ## Compainion Repositories
 
 JobDSL, Seed Job repository:
-<https://github.com/figaw/configuration-as-code-jenkins-k8s-jobdsl>
+<https://github.com/tpeltone/configuration-as-code-jenkins-k8s-jobdsl>
 
 Example Project repository:
-<https://github.com/figaw/configuration-as-code-jenkins-k8s-pipeline>
+<https://github.com/tpeltone/configuration-as-code-jenkins-k8s-pipeline>

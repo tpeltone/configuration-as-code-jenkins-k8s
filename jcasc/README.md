@@ -3,13 +3,13 @@
 ## Build
 
 ```bash
-docker build -t figaw/jcasc-basic:2.222.1-1.39 .
+docker build -t tpeltone/jcasc-basic:2.222.3-1.39 .
 ```
 
 ## Run
 
 ```bash
-docker run -p 8080:8080 figaw/jcasc-basic:2.222.1-1.39
+docker run -p 8080:8080 tpeltone/jcasc-basic:2.222.3-1.39
 ```
 
 Congratulations you now have a basic Jenkins configured as code!
@@ -22,7 +22,7 @@ Congratulations you now have a basic Jenkins configured as code!
 
 ## Versions
 
-Jenkins, `2.222.1` is chosen as the latest LTS version. See: <https://jenkins.io/changelog-stable/>
+Jenkins, `2.222.3` is chosen as the latest LTS version. See: <https://jenkins.io/changelog-stable/>
 
 Configuration as Code, `1.39` is the latest version today. See: <https://plugins.jenkins.io/configuration-as-code/>
 

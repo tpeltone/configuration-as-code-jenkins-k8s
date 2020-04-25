@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t figaw/jcasc-basic:2.222.1-1.39 .
+docker build -t tpeltone/jcasc-basic:2.222.3-1.39 .

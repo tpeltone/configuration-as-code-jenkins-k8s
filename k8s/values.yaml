@@ -16,7 +16,7 @@ master:
     - kubernetes:1.25.2
     - bouncycastle-api:2.18
 
-    tag: 2.222.1
+    tag: 2.222.3
 
     JCasC:
       enabled: true
@@ -58,7 +58,7 @@ master:
                   scm {
                     git {
                       remote {
-                        url ('git@github.com:figaw/configuration-as-code-jenkins-k8s-jobdsl.git')
+                        url ('git@github.com:tpeltone/configuration-as-code-jenkins-k8s-jobdsl.git')
                         credentials('jenkins-github-ssh')
                       }
                     }
@@ -76,5 +76,5 @@ master:
               useScriptSecurity: false
 
 agent:
-  image: figaw/jenkins-inbound-agent-gcloud
+  image: tpeltone/jenkins-inbound-agent-gcloud
   tag: 4.3-4
