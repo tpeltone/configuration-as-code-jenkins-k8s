@@ -1,6 +1,6 @@
 configuration-as-code:1.39
 
-credentials-binding:1.21
+credentials-binding:1.22
 job-dsl:1.77
 git:4.2.2
 ssh:2.6.1
